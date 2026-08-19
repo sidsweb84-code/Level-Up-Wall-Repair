@@ -1,0 +1,14 @@
+{
+  "name": "level_up_wall_repair",
+  "version": "1.0.0",
+  "description": "Level Up Wall Repair — Brisbane wall & ceiling repair specialist website",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i assets/css/input.css -o assets/css/style.css --minify",
+    "watch": "tailwindcss -i assets/css/input.css -o assets/css/style.css --watch"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
